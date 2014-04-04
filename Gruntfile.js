@@ -70,7 +70,8 @@ module.exports = function (grunt) {
       js: {
         src: [
           '<%= app.publicBase %>/js/*.js',
-          '<%= app.publicBase %>/js/**/*.js'
+          '<%= app.publicBase %>/js/**/*.js',
+          '-<%= app.publicBase %>/js/map/*'
         ]
       },
       test: {
