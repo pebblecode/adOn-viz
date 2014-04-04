@@ -5,8 +5,8 @@
   var init = function() {
     var dataUrl = "data/time-data.tsv";
 
-    var fullWidth = 400;
-    var fullHeight = 300;
+    var fullWidth = 500;
+    var fullHeight = 430;
     var margin = {
       top: 20,
       right: 20,
