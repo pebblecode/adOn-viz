@@ -1,6 +1,6 @@
 # adOn-viz
 
-A website built using [generator-starttter](https://github.com/taktran/generator-starttter).
+Visualization of adOn data.
 
 ## Development
 

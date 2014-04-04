@@ -1,7 +1,7 @@
 {
   "name": "adon-viz",
   "version": "0.0.1",
-  "description": "A website built using generator-starttter",
+  "description": "Visualization of adOn data",
   "main": "Gruntfile.js",
   "scripts": {
     "start": "node bin/server.js",
