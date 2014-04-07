@@ -2,10 +2,13 @@
 (function (){
   'use strict';
 
+  var graphSelector = ".hits-over-time";
+  var graphEl = $(graphSelector);
+
   var init = function() {
     var dataUrl = "data/time-data.tsv";
 
-    var fullWidth = 500;
+    var fullWidth = graphEl.width();
     var fullHeight = 430;
     var margin = {
       top: 20,
@@ -40,7 +43,7 @@
         .x(function(d) { return x(d.date); })
         .y(function(d) { return y(d.close); });
 
-    var svg = d3.select("#main").append("svg")
+    var svg = d3.select(graphSelector).append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
